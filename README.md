@@ -81,7 +81,7 @@ like below:
 
 ![Screenshot (349)](https://github.com/omarkamal62/building-task/assets/49999117/0c6eb5ca-4148-4fa9-9c63-b13d13d2c46e)
 
-![Screenshot (352)](https://github.com/omarkamal62/building-task/assets/49999117/fa43c64e-fdd5-415f-8fb2-b574678f9ed4)
+![Screenshot (353)](https://github.com/omarkamal62/building-task/assets/49999117/0a2f7fae-c2ee-447b-ba54-9060dd38f6c8)
 
 as shwon in the second image when you hover over it (you can see a tooltip that shows the building name assoicated with the country).
 
