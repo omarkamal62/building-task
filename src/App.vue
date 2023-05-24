@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <UserBuildings />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import { provide } from "vue";
+import UserBuildings from "./components/UserBuildings.vue";
+import store from "./store";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    UserBuildings,
+  },
+  setup() {
+    provide("store", store);
   },
 };
 </script>
@@ -22,5 +26,26 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.scrollbar {
+  margin-bottom: 25px;
+}
+
+.scrollbar-accent::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.scrollbar-accent::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar-accent::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: coral;
 }
 </style>
