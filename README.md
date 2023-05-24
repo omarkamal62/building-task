@@ -39,11 +39,14 @@ This app doesn't add users, but there are a 4 users inside the store with data (
 buildings to those users.
 
 ### the application cycle
-(FIRST) You will find a dropdown that has all the users, so you can select among them and see the buildings for each one.
+
+### The main screen of the app
+You will find a dropdown that has all the users, so you can select among them and see the buildings for each one.
 like the photo.
 
 ![Screenshot (344)](https://github.com/omarkamal62/building-task/assets/49999117/45419ac5-f97e-4820-b56d-069a7542e27a)
 
+### Selecting a user.
 
 (SECOND) After selecting a user if that user has some buildings the screen will be split up to two parts, the left part is the 
 list of the buildings that this user has in the system. the second part will be the map for this location.
@@ -51,14 +54,17 @@ like shown below:
 
 ![Screenshot (345)](https://github.com/omarkamal62/building-task/assets/49999117/4d52887b-8bf7-4c64-8379-7a6c70e81eed)
 
+### Selecting a user with empty building list
 
-(Third) If that user or the selected user doesn't have any buildings in the system. so an alert will be shown that indicate 
+If that user or the selected user doesn't have any buildings in the system. so an alert will be shown that indicate 
 that this user doesn't have any buildings in the system.
 liek below:
 
 ![Screenshot (350)](https://github.com/omarkamal62/building-task/assets/49999117/b9f9c764-14b0-4ec9-aa0d-dbd6e1569499)
 
-(4th) Like we mentio in the description this app can add, edit or delete the buildings. so we need a form for adding and editing,
+### Adding or Editing Form
+
+Like we mentioned in the description this app can add, edit or delete the buildings. so we need a form for adding and editing,
 and by clicking on the add building button in the building list:
 
 ![Screenshot (347)](https://github.com/omarkamal62/building-task/assets/49999117/e302be75-946c-47ed-81eb-2efe9db35511)
@@ -77,7 +83,9 @@ like below:
 
 ![Screenshot (351)](https://github.com/omarkamal62/building-task/assets/49999117/678018d7-117e-4464-8d14-502c2edeb086)
 
-(5th) Like we mention the I can show the location of the building on which country and with the help of Leaflet
+### Using Leaflet as map 
+
+Like we mention the I can show the location of the building on which country and with the help of Leaflet
 
 ![Screenshot (349)](https://github.com/omarkamal62/building-task/assets/49999117/0c6eb5ca-4148-4fa9-9c63-b13d13d2c46e)
 
