@@ -99,3 +99,4 @@ as shwon in the second image when you hover over it (you can see a tooltip that 
 
 1) Vue 3 (the framework for the task)
 2) Leaflet for implemntaion of the map.
+3) Local storage is used in the application as there's no backend or database of any kind, so we save the buildings array of the store inside of the local storage.
