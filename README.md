@@ -38,6 +38,8 @@ show the buildingg name and the country is located in.
 This app doesn't add users, but there are a 4 users inside the store with data (name, id). You can add 
 buildings to those users.
 
+<hr />
+
 ### the application cycle
 
 ### The main screen of the app
