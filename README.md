@@ -95,6 +95,16 @@ Like we mention the I can show the location of the building on which country and
 
 as shwon in the second image when you hover over it (you can see a tooltip that shows the building name assoicated with the country).
 
+### The app is also responsive
+
+like shown in the images below
+
+![Screenshot (354)](https://github.com/omarkamal62/building-task/assets/49999117/44e4f040-8208-43e4-b53e-a41eb00ccb1d)
+![Screenshot (355)](https://github.com/omarkamal62/building-task/assets/49999117/e2fc6542-3cb1-419d-a184-eb9acf9b8f1f)
+![Screenshot (356)](https://github.com/omarkamal62/building-task/assets/49999117/3b81b9bc-f0b7-4570-9b29-a445ae9f726b)
+![Screenshot (357)](https://github.com/omarkamal62/building-task/assets/49999117/70aea16f-854b-4e83-ba4b-64ac1ce16305)
+
+
 ### The tools used in this application
 
 1) Vue 3 (the framework for the task)
