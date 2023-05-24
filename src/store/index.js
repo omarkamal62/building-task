@@ -43,6 +43,8 @@ const state = reactive({
 const methods = {
   getUserBuildings(userId, buildingId) {
     state.loading = true;
+    state.countryPosition = null;
+    state.userBuildings = [];
     this.fetchUserBuildings(userId).then((res) => {
       state.userBuildings = res;
       state.loading = false;
